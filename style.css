@@ -132,7 +132,6 @@ main{
 }
 
 .top-center-main aside{
-
   grid-area:aside;
   height: 100%;
   border-right: 1px solid rgb(77, 77, 77);
@@ -143,9 +142,7 @@ main{
   justify-content: center;
   gap: 3rem;
   padding: 0rem 3.5rem;  
-
 }
-
 .top-center-main aside p{
   color: rgb(71, 71, 71);
   font-weight: 700;
@@ -155,11 +152,19 @@ main{
 .top-center-main .main-text-sections{
   grid-area:texts; 
   display: flex;
-  padding: 4rem;
+
 }
 
-.top-center-main .main-text-sections p, .main-text-sections a{
-  /* padding: 4rem; */
+.main-text{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  padding: 4rem;
+}
+.main-text a{
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 .top-center-main .main-image-section{
