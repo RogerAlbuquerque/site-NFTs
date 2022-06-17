@@ -54,11 +54,11 @@
 /* ********** BEGIN HEADER TEXTS   ********** */
 
 .header-top-texts{
-  margin-top: 6rem;
+  margin-top: 7.8rem;
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-bottom:6rem;
+  margin-bottom:4rem;
 }
 
 .left-section-header{
@@ -79,17 +79,9 @@ flex-basis: 80%;
   flex-direction: column;
 }
 
-.selected-artist span{
-  font-weight: bold;
-}
 
 .top-middle-section h1, .top-middle-section span{
   font-size:50px;
   font-weight: 700;
-  margin-top: -12px;
-
-  flex-basis: 100%;
- 
- 
-  
 }
+/* ********** END HEADER TEXTS   ********** */
