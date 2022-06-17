@@ -10,6 +10,7 @@
  }
  header,main,footer{
    padding: 3rem;
+   padding-bottom: 0rem;
    background-color: #0e0e0e;
    color: #fff;
  }
@@ -28,6 +29,7 @@
  .header-menu-logo{
   display: flex;
   justify-content: space-between;  
+  align-items: center;
  }
 
  header ul{
@@ -45,7 +47,7 @@
   display: flex;
   align-items: center;
   gap: .4rem;
-  padding: .5rem;
+  padding: .45rem;
   font-weight: 700;  
   cursor: pointer;
  }
@@ -54,11 +56,11 @@
 /* ********** BEGIN HEADER TEXTS   ********** */
 
 .header-top-texts{
-  margin-top: 7.8rem;
+  margin-top: 6rem;
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-bottom:4rem;
+  margin-bottom:6rem;
 }
 
 .left-section-header{
@@ -85,3 +87,28 @@ flex-basis: 80%;
   font-weight: 700;
 }
 /* ********** END HEADER TEXTS   ********** */
+
+/* ********** BEGIN TOP GALERY ********** */
+
+.top-galery  {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.top-galery section{
+  display: flex;
+  gap:.8rem;
+}
+
+.top-galery section:first-child img{
+  border: 2px solid grey;
+}
+.top-galery section:last-child img{
+  border: 1px solid white;
+}
+
+/* ********** END TOP GALERY ********** */
+
+/* ********** BEGIN MAIN ********** */
+
