@@ -7,6 +7,7 @@
 
  body{
   min-width: 1344px;
+  
  }
  header,main,footer{
    padding: 3rem;
@@ -23,6 +24,11 @@
  .title-text{
   color:  #ff5b50;
 } 
+
+h1{
+  font-size: 50px;
+  font-weight: 700;
+}
 
 /* ********** BEGIN TOP HEADER MENUS ********** */
 
@@ -82,7 +88,7 @@ flex-basis: 80%;
 }
 
 
-.top-middle-section h1, .top-middle-section span{
+.top-middle-section span{
   font-size:50px;
   font-weight: 700;
 }
@@ -112,3 +118,52 @@ flex-basis: 80%;
 
 /* ********** BEGIN MAIN ********** */
 
+main{
+  padding:0rem ;
+}
+
+.top-center-main {
+ display: grid;
+ align-items: center;
+
+ grid-template-areas:
+ "aside texts"
+ "aside image"
+}
+
+.top-center-main aside{
+
+  grid-area:aside;
+  height: 100%;
+  border-right: 1px solid rgb(77, 77, 77);
+  border-bottom: 1px solid rgb(77, 77, 77);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0rem 3.5rem;  
+
+}
+
+.top-center-main aside p{
+  color: rgb(71, 71, 71);
+  font-weight: 700;
+}
+
+
+.top-center-main .main-text-sections{
+  grid-area:texts; 
+  display: flex;
+  padding: 4rem;
+}
+
+.top-center-main .main-text-sections p, .main-text-sections a{
+  /* padding: 4rem; */
+}
+
+.top-center-main .main-image-section{
+  grid-area:image;
+}
+
+    
