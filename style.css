@@ -47,6 +47,7 @@ h1, .grande{
 
  header button{
   background-color: white;
+  color: black;
   border: none;
   display: flex;
   align-items: center;
@@ -206,4 +207,40 @@ main{
   color:rgb(77, 77, 77);
 }
 
+/* ********** END "POPULARES DA SEMANA" ********** */
+/* <!-- ********** BEGIN MELHORES ARTISTAS ********** --> */
 
+.week-popular-title {
+  text-align: center;
+}
+
+
+.artist{
+  width: 350px;
+  height: 150px;
+  background-color: #252525;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.artist:hover, .artist:hover span{
+  background-color: #FF5B50;
+  color: white;
+  cursor: pointer;
+}
+
+.artist-article{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.artist-footer{
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+/* <!-- ********** END BEGIN MELHORES ARTISTAS ********** --> */
