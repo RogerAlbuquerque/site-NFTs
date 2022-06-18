@@ -244,3 +244,57 @@ main{
 }
 
 /* <!-- ********** END BEGIN MELHORES ARTISTAS ********** --> */
+/* #################### END MAIN #################### */
+
+
+footer{
+  display: grid;
+  grid-template-areas: 
+  
+  "topo topo"
+  "contact navigation"
+  "social social"
+  ;
+}
+
+.footer-menu{
+  grid-area:topo ;
+}
+
+.middle-left-footer{
+  grid-area: contact;
+}
+
+.table-footer{
+  grid-area: navigation;
+}
+
+.bottom-footer{
+  grid-area: bot;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
