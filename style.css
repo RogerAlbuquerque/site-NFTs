@@ -254,23 +254,65 @@ footer{
   "topo topo"
   "contact navigation"
   "social social"
-  ;
+  
 }
 
 .footer-menu{
   grid-area:topo ;
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  
+}
+
+.footer-menu img:last-child{
+  background-color:  #FF5B50;
+  padding:1rem;
+  cursor: pointer;
+
 }
 
 .middle-left-footer{
   grid-area: contact;
 }
+.middle-left-footer p, .middle-left-footer span{
+  font-size: 30px;
+}
+
+#email{
+  background-color: #252525;
+  border: none;
+  padding:1rem; 
+  font-size: 20px; 
+}
+
+footer button{
+  color: #252525;
+  margin: -4px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .table-footer{
   grid-area: navigation;
 }
 
 .bottom-footer{
-  grid-area: bot;
+  grid-area: social;
 }
 
 
