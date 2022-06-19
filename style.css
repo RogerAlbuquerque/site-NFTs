@@ -248,12 +248,15 @@ main{
 
 
 footer{
+  padding: 0px;
   display: grid;
   grid-template-areas: 
   
   "topo topo"
   "contact navigation"
-  "social social"
+  "social social";
+
+  background-color: #252525;
   
 }
 
@@ -262,6 +265,9 @@ footer{
   display: flex;
   justify-content: space-between;  
   align-items: center;
+  border-bottom: 2px solid rgb(56, 56, 56);
+  padding: 4rem;
+
   
 }
 
@@ -274,13 +280,20 @@ footer{
 
 .middle-left-footer{
   grid-area: contact;
+  padding: 4rem ;
+  padding-right: 3rem;
+  width: 50%;
+  border-bottom: 2px solid rgb(56, 56, 56);
+  border-right: 2px solid rgb(56, 56, 56);
+  margin-right: 8rem;
 }
 .middle-left-footer p, .middle-left-footer span{
   font-size: 30px;
+  width: 80%;
 }
 
 #email{
-  background-color: #252525;
+  background-color: #111111;
   border: none;
   padding:1rem; 
   font-size: 20px; 
@@ -288,7 +301,7 @@ footer{
 
 footer button{
   color: #252525;
-  margin: -4px;
+  margin: -6px;
   padding: 1rem;
   font-weight: bold;
 }
@@ -309,10 +322,30 @@ footer button{
 
 .table-footer{
   grid-area: navigation;
+  text-align: left;
+  /* padding: 8rem; */
+  margin-left: -18rem;
+  border-bottom: 2px solid rgb(56, 56, 56);
+
 }
 
+table th, table td{
+  padding: 1rem 1.6rem 1rem 4rem;
+}
+
+
+table td{
+  color: #585858;
+  cursor: pointer;
+}
+table td:hover{
+  color: white;
+}
 .bottom-footer{
   grid-area: social;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
 }
 
 
