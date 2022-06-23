@@ -13,7 +13,7 @@
 body{
   background-color:  #0e0e0e;
   min-width: 1344px;
-  background: url(images/background.png) no-repeat top;
+  background: url(images/background.png) no-repeat top ;
   background-size: contain;
 }
 
@@ -37,7 +37,6 @@ h1{
 
 /* ############################################# PARTE 1 DO CÓDIGO HEADER   ############################################# */
 header{
-/* background-color: red; */
 margin-bottom: 600px;
 }
 
@@ -51,10 +50,52 @@ margin-bottom: 600px;
 /* ---- AREA 1 HEADER TOP MENU ---- */
 
 .header-menu-logo{
-  background-color: red;
+  /* background-color: red; */
 
+
+
+
+  display: flex;
+  gap:10.5rem;
 }
 
+ul{
+  display: flex;
+  justify-content:end;
+  gap: 3.5rem;
+}
+header li{
+  cursor: pointer;
+}
+header li:hover{
+  cursor: pointer;
+  color: rgb(212, 212, 212);
+}
+header li:active{
+  cursor: pointer;
+  color: rgb(179, 178, 178);
+}
+
+header button{
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding:.4rem;
+  border: none;
+  border-radius: .1rem;
+  cursor: pointer;
+}
+
+header button:hover{
+  background-color: rgb(240, 240, 240);
+
+}
+header button:active{
+  background-color: rgb(193, 191, 191);
+}
 
 /* ---- FIM AREA 1 HEADER TOP MENU ---- */
 
