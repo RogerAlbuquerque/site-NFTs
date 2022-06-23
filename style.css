@@ -120,24 +120,45 @@ header button:active{
 /* ---- AREA 2 HEADER TOP TEXTS ---- */
 
 .header-top-texts{
-  background-color: green;
   display: flex;
   align-items: center;
+  
+ 
+}
+/* **** left-header-section **** */
+.left-header-section{
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  flex-basis: 35%;
+
+}
+
+.left-header-section .artists{
+
+  display: flex;
+  align-items: end;
+}
+.selected-artist{
+  display: flex;
+  flex-direction: column;
+}
+/* **** END left-header-section **** */
+.middle-header-section{
+  flex-basis: 60%;
+  letter-spacing: .09rem;
+  padding: 0rem 1rem;
+  
+  
  
 }
 
-.left-header-section{
-  background-color: red;
-
-
-}
-
-.middle-header-section{
-  background-color: blue;
-}
-
 .right-header-section{
-  background-color: yellow;
+  flex-basis: 20%;
+  text-align: center;
+
+ 
+  
 }
 
 
