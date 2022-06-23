@@ -14,12 +14,12 @@ body{
   background-color:  #0e0e0e;
   min-width: 1344px;
   background: url(images/background.png) no-repeat top ;
-  background-size: contain;
+
 }
 
 #container{
   width: 100%;
-  padding: 3.5rem;
+  padding: 2.5rem;
 }
 
 h1{
@@ -29,7 +29,9 @@ h1{
 .title-text {
   color: #ff5b50;
 }
-
+.grande{
+  font-size: 50px;
+}
 
 
 
@@ -38,6 +40,9 @@ h1{
 /* ############################################# PARTE 1 DO CÓDIGO HEADER   ############################################# */
 header{
 margin-bottom: 600px;
+display: flex;
+flex-direction: column;
+gap: 6rem;
 }
 
 
@@ -52,11 +57,11 @@ margin-bottom: 600px;
 .header-menu-logo{
   /* background-color: red; */
 
-
-
-
+  
   display: flex;
-  gap:10.5rem;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
 ul{
@@ -116,8 +121,23 @@ header button:active{
 
 .header-top-texts{
   background-color: green;
+  display: flex;
+  align-items: center;
  
-  
+}
+
+.left-header-section{
+  background-color: red;
+
+
+}
+
+.middle-header-section{
+  background-color: blue;
+}
+
+.right-header-section{
+  background-color: yellow;
 }
 
 
