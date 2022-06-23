@@ -1,0 +1,109 @@
+*{
+  margin: 0px; padding: 0px; box-sizing: border-box;color: white;
+}
+body{
+  background-color:  #0e0e0e;
+}
+
+#container{
+  text-align: center;
+  display: grid;
+  grid-area: 
+  
+  "header header header"
+  "aside main main"
+  
+  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############################################# PARTE 1 DO CÓDIGO HEADER   ############################################# */
+header{
+background-color: red;
+}
+
+
+/* ********************************************* FINAL DA PARTE 1 DO CÓDIGO HEADER   ********************************************* */
+
+
+
+
+
+
+
+/* ############################################# PARTE 2 DO CÓDIGO TOP-CENTER-MAIN   ############################################# */
+
+.top-center-main{
+  background-color: green;
+}
+
+
+/* ********************************************* FINAL DA PARTE 2 DO CÓDIGO TOP-CENTER-MAIN   ********************************************* */
+
+
+
+
+
+
+
+
+
+
+
+/* ############################################# PARTE 3 DO CÓDIGO WEEK-POPULAR   ############################################# */
+.week-popular{
+  background-color: blue;
+}
+
+/* ********************************************* FINAL DA PARTE 3 DO CÓDIGO WEEK-POPULAR   ********************************************* */
+
+
+
+
+
+
+
+
+
+
+/* ############################################# PARTE 4 DO CÓDIGO ARTIST-ARTICLE   ############################################# */
+
+
+.artist-article{
+
+background-color: orange;
+
+}
+
+/* ********************************************* FINAL DA  PARTE 4 DO CÓDIGO ARTIST-ARTICLE   ************************************** */
+
+
+
+
+
+
+
+
+
+
+/* ############################################# PARTE FINAL  DO CÓDIGO FOOTER   ############################################# */
+
+
+footer{
+  background-color: pink;
+}
+
+/* ******************************************* FINAL DO CÓDIGO CSS  ********************************************* */
