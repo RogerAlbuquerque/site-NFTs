@@ -13,14 +13,13 @@
 body{
   background-color:  #0e0e0e;
   min-width: 1344px;
-  background: url(images/background.png) no-repeat top ;
-  background-size: 100% 20%;
+  
 
 }
 
 #container{
   width: 100%;
-  padding: 2.5rem;
+  
 }
 
 h1{
@@ -33,26 +32,18 @@ h1{
 .grande{
   font-size: 50px;
 }
-
-
-
-
-
 /* ############################################# PARTE 1 DO CÓDIGO HEADER   ############################################# */
 header{
-margin-bottom: 600px;
+  background: url(images/background.png) no-repeat top ;
+  background-size: cover;
+
+
+
 display: flex;
 flex-direction: column;
-gap: 6rem;
+gap: 5rem;
+padding: 3rem 2.5rem 0rem 2.5rem;
 }
-
-
-
-
-
-
-
-
 /* ---- AREA 1 HEADER TOP MENU ---- */
 
 .header-menu-logo{
@@ -124,13 +115,15 @@ header button:active{
   display: flex;
   align-items: center;
   
+  
  
 }
 /* **** left-header-section **** */
 .left-header-section{
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
+
+  gap: 3rem;
   flex-basis: 35%;
 
 }
@@ -149,17 +142,10 @@ header button:active{
   flex-basis: 60%;
   letter-spacing: .09rem;
   padding: 0rem 1rem;
-  
-  
- 
 }
-
 .right-header-section{
   flex-basis: 20%;
   text-align: center;
-
- 
-  
 }
 
 
@@ -169,24 +155,22 @@ header button:active{
 
 /* ---- AREA 3 HEADER TOP-GALERY ---- */
 
-.top-galery{
-background-color: blue;
+.top-galery section:first-child{
+  margin-bottom: 2rem;
 }
+.top-galery{
+display: flex;
+flex-direction: column;
+text-align: center;
 
+}
+.top-galery img{
+  width: 280px;
+  height: 190px;
+  border: 1px solid white;
+  margin: .4rem .4rem 0rem .4rem;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /* ********************************************* FINAL DA PARTE 1 DO CÓDIGO HEADER   ********************************************* */
 
@@ -228,6 +212,7 @@ background-color: blue;
 
 .top-center-main{
   background-color: green;
+  padding: 2.5rem;
 }
 
 
@@ -246,6 +231,7 @@ background-color: blue;
 /* ############################################# PARTE 3 DO CÓDIGO WEEK-POPULAR   ############################################# */
 .week-popular{
   background-color: blue;
+  padding: 2.5rem;
 }
 
 /* ********************************************* FINAL DA PARTE 3 DO CÓDIGO WEEK-POPULAR   ********************************************* */
@@ -265,6 +251,7 @@ background-color: blue;
 .artist-article{
 
 background-color: orange;
+padding: 2.5rem;
 
 }
 
@@ -284,6 +271,7 @@ background-color: orange;
 
 footer{
   background-color: pink;
+  padding: 2.5rem;
 }
 
 /* ******************************************* FINAL DO CÓDIGO CSS  ********************************************* */
