@@ -97,6 +97,8 @@ flex-basis: 80%;
 
 .top-galery  {
   display: flex;
+  align-items: center;
+  justify-content:center;
   flex-wrap: wrap;
   gap: 3rem;
 }
